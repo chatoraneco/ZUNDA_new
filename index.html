@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./images/ずんだ.png">
+    <title>Chatoraneco:Zunda</title>
+    <link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./libs/bootstrap/carousel.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/custom.css"> <!-- CSSファイルをリンク -->
+    <link rel="shortcut icon" href="./images/ZUNDA.png">
+</head>
+<body>
+
+    <!-- 固定ハンバーガーメニューアイコン -->
+    <div id="menu-icon" class="position-fixed top-0 start-0 p-3" style="z-index: 9999;">
+        <i class="bi bi-list" style="font-size: 40px; cursor: pointer;"></i>
+    </div>
+
+    <!-- スライドインナビゲーションメニュー -->
+    <div id="side-nav" class="position-fixed top-0 start-0 h-100 bg-dark text-white" style="width: 250px; transform: translateX(-100%); transition: transform 0.3s ease;">
+        <nav class="navbar navbar-dark">
+            <ul class="navbar-nav p-3">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="bi bi-house-fill"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#my_portfolio"><img src="./images/ZUNDA.png" alt="Zunda" class="nav-icon"> Zunda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#my_about"><i class="bi bi-people-fill"></i> Visiter</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#roulette"><i class="bi bi-images"></i> Roulette</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#my_contact"><i class="bi bi-chat-fill"></i> Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Header (その他の部分) -->
+    <!-- Header(Start) -->
+<!-- Header(Start) -->
+<header>
+    <nav class="navbar navbar-dark navbar-expand-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./images/New Piskel.gif">Chatoraneco:Zunda
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#targetCollapse" aria-expanded="false" aria-label="Toggle navigation" style="position: relative; z-index: 1060;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="targetCollapse" style="position: relative; z-index: 1050;">
+                <ul class="navbar-nav">
+                    <!-- 各メニューアイテムにマージンを追加して1行ずつ下にずらす -->
+                    <li class="nav-item" style="margin-top: 10px;">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-house-fill" alt="Home" class="nav-icon"> Home</i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 10px;">
+                        <a class="nav-link" href="#my_portfolio">
+                            <img src="./images/ZUNDA.png" alt="Zunda" class="nav-icon"> Zunda
+                        </a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 10px;">
+                        <a class="nav-link" href="#my_about">
+                            <i class="bi bi-people-fill" alt="About" class="nav-icon"> Visiter</i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 10px;">
+                        <a class="nav-link" href="#roulette">
+                            <i class="bi bi-images" alt="Roulette" class="nav-icon">Roulette</i>
+                        </a>
+                    </li>
+                    <li class="nav-item" style="margin-top: 10px;">
+                        <a class="nav-link" href="#my_contact">
+                            <i class="bi bi-chat-fill" alt="Contact" class="nav-icon">Contact</i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- Header(End) -->
+
+<!-- Header(End) -->
+
+    <!-- Header(End) -->
+
+    <!-- Main(Start) -->
+    <main>
+
+        <div class="text-center" id="my_key">
+            <div class="container" id="my_key_in">
+                <img src="./images/New Piskel.gif">
+                <h1>Chatoraneco</h1>
+                <h4>--------★--------</h4>
+                <h5>Student</h5>
+                <h5>言語: HTML/CSS/JavaScript</h5>
+            </div>
+        </div>
+
+        <div class="container" id="my_portfolio">
+            <br><br>
+            <h2>Zunda</h2>
+            <h5>--------★--------</h5>
+            <br>
+            <div class="row d-flex align-items-stretch">
+                <div class="row justify-content-center">
+                    <div class="card" style="max-width: 25rem;">
+                        <img id="zundaGif" class="card-img-top" src="./images/bigZUNDA.gif" alt="Zunda">
+                        <div class="card-body">
+                            <h4 class="card-title">ずんだもん</h4>
+                            <p class="card-text">なの</p>
+                            <a href="#" class="btn btn-primary">だ！</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+
+        <div class="container-fluid" id="my_about">
+            <br><br>
+            <h2 style="text-align: center;">Visiter</h2>
+            <h5 style="text-align: center;">--------★--------</h5>
+            <br>
+            <div style="text-align: center;">
+                <div>ずんだもち美味しいらしいのだ</div>
+                <br>
+				<div id="visitorCount">あなたは◯◯人目のお客様なのだ</div>
+                <button id="resetVisitorCount" class="btn btn-danger mt-3">訪問者数リセット</button>
+				<br>
+                <h6>※タップで移動できます※</h6>
+                <br>
+                <img class="zundaImage" id="zundaImage1" src="./images/ZUNDA.png">
+                <img class="zundaImage" id="zundaImage2" src="./images/ZUNDA.png">
+                <img class="zundaImage" id="zundaImage3" src="./images/ZUNDA.png">
+                <br>
+            </div>
+            <br><br>
+        </div>
+
+        <div class="container-fluid" id="roulette" style="text-align: center;">
+            <br>
+            <h2>Roulette</h2>
+            <h5>--------★--------</h5>
+            <h3>▽</h3>
+            <img id="rouletteImage" src="./images/ルーレット.png" alt="ルーレット">
+            <br>
+            <button id="rotateButton" class="btn btn-success mt-3">回転スタート</button>
+            <br><br>
+        </div>
+
+        <div class="container" id="my_contact" style="text-align: center;">
+            <br><br>
+            <h2>Contact</h2>
+            <h5>--------★--------</h5>
+            <br>
+            <div class="image-container">
+                <img class="zundaImage" id="zundaImage1" src="./images/ZUNDA.png" alt="Zunda 1">
+                <img class="zundaImage" id="zundaImage2" src="./images/ZUNDA.png" alt="Zunda 2">
+                <img class="zundaImage" id="zundaImage3" src="./images/ZUNDA.png" alt="Zunda 3">
+            </div>
+            <!-- メールアイコンの追加 -->
+<div id="icon-container" style="display: none;">
+    <a href="mailto:mimura-k2333@school.ac.jp?subject=お問い合わせ&body=こんにちは。" target="_blank">
+        <i class="bi bi-envelope" style="font-size: 40px; color: #7fffd4;"></i>
+    </a>
+</div>
+
+        </div>
+        
+        
+        
+        
+
+    </main>
+    <!-- Main(End) -->
+
+    <!-- Footer(Start) -->
+    <footer>
+        <div class="container text-muted py-5">
+            <p class="float-end mb-1"><a href="#">Back to top</a></p>
+            <p class="mb-1">&copy; Bootstrap</p>
+            <p class="mb-0">
+                <a href="https://getbootstrap.jp" target="_blank">Bootstrap公式サイト</a>や
+                <a href="https://getbootstrap.jp/docs/5.0/getting-started/introduction/" target="_blank">スタートガイド</a>、
+                <a href="https://icons.getbootstrap.com/" target="_blank">アイコン</a>を活用しましょう。
+            </p>
+        </div>
+    </footer>
+    <!-- Footer(End) -->
+
+    <!-- JavaScript -->
+    <script src="./libs/jquery/jquery-3.6.1.min.js"></script>
+    <script src="./libs/bootstrap/popper.min.js"></script>
+    <script src="./libs/bootstrap/bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+    <script>
+        let scale = 1; // 拡大率の初期値
+        const maxScale = 2; // 最大拡大率の設定
+
+        document.querySelector('.btn.btn-primary').addEventListener('click', function(event) {
+            event.preventDefault(); // リンクのデフォルト動作を防ぐ
+
+            if (scale >= maxScale) {
+                scale = 1; // 最大サイズに達したら元に戻す
+            } else {
+                scale += 0.1; // クリックするたびに拡大率を増加
+            }
+
+            const gif = document.getElementById('zundaGif');
+            gif.style.transform = `scale(${scale})`; // GIFを拡大または元に戻す
+            gif.style.transition = 'transform 0.2s'; // アニメーション効果
+        });
+
+        const zundas = [
+            { element: document.getElementById('zundaImage1'), speed: 2 },
+            { element: document.getElementById('zundaImage2'), speed: 2.4 },
+            { element: document.getElementById('zundaImage3'), speed: 3 },
+        ];
+
+        function randomizePosition(zunda) {
+            const myAbout = document.getElementById('my_about');
+            const newX = Math.random() * (myAbout.clientWidth - 50);
+            const newY = Math.random() * (myAbout.clientHeight - 50);
+            zunda.element.style.position = 'absolute'; // 位置を絶対に設定
+            zunda.element.style.left = newX + 'px';
+            zunda.element.style.top = newY + 'px';
+            return { posX: newX, posY: newY };
+        }
+
+        zundas.forEach(zunda => {
+            let posX = Math.random() * (document.getElementById('my_about').clientWidth - 50);
+            let posY = Math.random() * (document.getElementById('my_about').clientHeight - 50);
+            let velocityX = zunda.speed;
+            let velocityY = zunda.speed;
+
+            zunda.element.addEventListener('click', () => {
+                const newPosition = randomizePosition(zunda);
+                posX = newPosition.posX;
+                posY = newPosition.posY;
+            });
+
+            function moveZunda() {
+                posX += velocityX;
+                posY += velocityY;
+
+                if (posX + 50 >= document.getElementById('my_about').clientWidth || posX < 0) {
+                    velocityX *= -1; // X方向の反転
+                }
+                if (posY + 50 >= document.getElementById('my_about').clientHeight || posY < 0) {
+                    velocityY *= -1; // Y方向の反転
+                }
+
+                zunda.element.style.left = posX + 'px';
+                zunda.element.style.top = posY + 'px';
+
+                zundas.forEach(otherZunda => {
+                    if (otherZunda !== zunda) {
+                        const otherPosX = parseFloat(otherZunda.element.style.left);
+                        const otherPosY = parseFloat(otherZunda.element.style.top);
+
+                        if (
+                            posX < otherPosX + 50 &&
+                            posX + 50 > otherPosX &&
+                            posY < otherPosY + 50 &&
+                            posY + 50 > otherPosY
+                        ) {
+                            velocityX *= 1.5;
+                            velocityY *= 1.5;
+
+                            setTimeout(() => {
+                                velocityX /= 1.5;
+                                velocityY /= 1.5;
+                            }, 500);
+                        }
+                    }
+                });
+
+                requestAnimationFrame(moveZunda);
+            }
+
+            zunda.element.style.position = 'absolute'; // 位置を絶対に設定
+            zunda.element.style.left = posX + 'px';
+            zunda.element.style.top = posY + 'px';
+            moveZunda();
+
+
+        });
+    </script>
+    <script>
+    // ここに訪問者数を追跡するためのロジックを追加
+
+    // ローカルストレージから現在の訪問者数を取得、なければ初期値1
+    let visitorCount = localStorage.getItem('visitorCount');
+    if (!visitorCount) {
+        visitorCount = 1; // 初回訪問時の処理
+    } else {
+        visitorCount = parseInt(visitorCount) + 1; // 訪問者数をインクリメント
+    }
+
+    // 訪問者数をローカルストレージに保存
+    localStorage.setItem('visitorCount', visitorCount);
+
+    // 「あなたは◯◯人目のお客様なのだ」を表示
+    document.getElementById('visitorCount').innerText = `あなたは${visitorCount}人目のお客様なのだ`;
+
+    // 訪問者数をリセットするための処理
+document.getElementById('resetVisitorCount').addEventListener('click', function() {
+    localStorage.setItem('visitorCount', 1); // 訪問者数を1にリセット
+    document.getElementById('visitorCount').innerText = `あなたは1人目のお客様なのだ`; // 表示をリセット
+});
+
+
+</script>
+	<script>
+        let isRotating = false; // 回転中かどうかのフラグ
+        let rotationAngle = 0; // 現在の回転角度
+        let rotationSpeed = 12; // 回転速度
+        let animationFrameId = null; // requestAnimationFrameのID
+        let decelerationSpeed = rotationSpeed; // 減速のための回転速度
+        let angleAtStop = 0; // 回転停止時の角度
+        const rouletteImage = document.getElementById('rouletteImage'); // ルーレット画像
+        const button = document.getElementById('rotateButton'); // 回転ボタン
+        const imageContainer = document.createElement('div'); // 画像を表示するコンテナ
+        document.getElementById('roulette').appendChild(imageContainer); // 画像コンテナを追加
+    
+        // 回転ボタンがクリックされたときの処理
+        button.addEventListener('click', function() {
+            if (!isRotating) {
+                // 回転が開始されていない場合
+                isRotating = true;
+                button.innerText = 'ストップ';  // ボタンのテキスト変更
+                button.style.cursor = 'pointer'; // 再度クリックできるように
+                startRotation(); // 回転開始
+            } else {
+                // 回転が開始されている場合（ストップ処理）
+                isRotating = false;
+                button.innerText = '今回分はおしまい！';  // ボタンのテキスト変更
+                stopRotation(); // 減速して停止
+            }
+        });
+    
+        // 回転の処理（回転速度一定）
+        function startRotation() {
+            function rotate() {
+                if (isRotating) {
+                    rotationAngle += rotationSpeed; // 回転角度を更新
+                    rotationAngle %= 360; // 角度を0〜360度に収める
+                    rouletteImage.style.transform = `rotate(${rotationAngle}deg)`; // 画像の回転を適用
+                    animationFrameId = requestAnimationFrame(rotate); // 次のフレームで再度回転
+                }
+            }
+            rotate(); // 初回呼び出しで回転開始
+        }
+    
+        // 回転を停止させる処理
+        function stopRotation() {
+            // ストップを押した瞬間にボタンを無効化
+            button.disabled = true; // ボタン無効化
+            button.innerText = '減速中...';  // ボタンテキスト変更（減速中）
+    
+            let decelerationRate = 0.02; // 減速率
+            function decelerate() {
+                if (decelerationSpeed > 0.1) { // 速度が十分に小さくなるまで減速
+                    decelerationSpeed -= decelerationRate; // 減速
+                    rotationAngle += decelerationSpeed; // 回転角度を更新
+                    rotationAngle %= 360; // 角度を0〜360度に収める
+                    rouletteImage.style.transform = `rotate(${rotationAngle}deg)`; // 画像の回転を適用
+                    animationFrameId = requestAnimationFrame(decelerate); // 次のフレームで再度減速
+                } else {
+                    // 減速が終わったら回転停止
+                    angleAtStop = rotationAngle; // 停止時の角度を記録
+                    cancelAnimationFrame(animationFrameId); // アニメーション停止
+                    rouletteImage.style.transform = `rotate(${rotationAngle}deg)`; // 最後の角度で停止
+                    executeActionBasedOnAngle(angleAtStop); // 角度に基づいて処理を実行
+    
+                    // 完全に無効化
+                    button.innerText = '今回分はおしまい！'; // ボタンテキスト変更
+                    // ボタンを完全に無効化（ここで無効化解除しない）
+                }
+            }
+    
+            decelerate(); // 減速開始
+        }
+    
+        // 角度に基づいて処理を実行
+        function executeActionBasedOnAngle(angle) {
+            // 画像を非表示にする（前回表示された画像を消去）
+            imageContainer.innerHTML = '';
+    
+            
+    
+            // 画像の表示
+            if (angle >= 0 && angle <= 51) {
+                let imagePath = './images/uEx.png';
+                imageContainer.innerHTML = `
+                    <img src="${imagePath}" class="roulette-image">
+                    <i class="bi bi-download download-icon" onclick="downloadImage('${imagePath}')"></i>
+                `;
+            } else if (angle >= 52 && angle <= 104) {
+                let imagePath = './images/As.png';
+                imageContainer.innerHTML = `
+                    <img src="${imagePath}" class="roulette-image">
+                    <i class="bi bi-download download-icon" onclick="downloadImage('${imagePath}')"></i>
+                `;
+            } else if (angle >= 105 && angle <= 180) {
+                let imagePath = './images/Bo.png';
+                imageContainer.innerHTML = `
+                    <img src="${imagePath}" class="roulette-image">
+                    <i class="bi bi-download download-icon" onclick="downloadImage('${imagePath}')"></i>
+                `;
+            } else if (angle >= 181 && angle <= 253) {
+                let imagePath = './images/Pi.png';
+                imageContainer.innerHTML = `
+                    <img src="${imagePath}" class="roulette-image">
+                    <i class="bi bi-download download-icon" onclick="downloadImage('${imagePath}')"></i>
+                `;
+            } else if (angle >= 254 && angle <= 282) {
+                let imagePath = './images/bigZUNDA.gif';
+                imageContainer.innerHTML = `
+                    <img src="${imagePath}" class="roulette-image">
+                    <i class="bi bi-download download-icon" onclick="downloadImage('${imagePath}')"></i>
+                `;
+            } else if (angle >= 283 && angle <= 359) {
+                let imagePath = './images/Pa.png';
+                imageContainer.innerHTML = `
+                    <img src="${imagePath}" class="roulette-image">
+                    <i class="bi bi-download download-icon" onclick="downloadImage('${imagePath}')"></i>
+                `;
+            }
+        }
+    
+        // 画像をダウンロードする関数
+        function downloadImage(imagePath) {
+            const link = document.createElement('a'); // ダウンロード用リンクを作成
+            link.href = imagePath; // ダウンロードする画像のパスを設定
+            link.download = imagePath.split('/').pop(); // ダウンロード時のファイル名を設定（画像のファイル名）
+            link.click(); // ダウンロードリンクをクリックしてダウンロードを開始
+        }
+    </script>
+    
+    
+    
+    
+    
+    <style>
+        /* 画像の下にアイコンを配置 */
+        .roulette-image {
+            display: block;
+            margin: 0 auto; /* 画像を中央に配置 */
+            max-width: 100%; /* 画像のサイズを画面幅に合わせる */
+        }
+    
+        /* ダウンロードアイコンのスタイル */
+        .download-icon {
+            display: block;
+            margin: 10px auto 0; /* アイコンを中央に配置し、画像との間に少しスペースを作る */
+            font-size: 40px; /* アイコンのサイズを大きくする */
+            color: #7fffd4; /* アイコンの色（青色に変更） */
+            cursor: pointer; /* クリックできることを示す */
+            transition: transform 0.2s ease; /* ホバー時のアニメーション効果 */
+        }
+    
+        /* アイコンにホバーしたときのエフェクト */
+        .download-icon:hover {
+            transform: scale(1.2); /* ホバー時にアイコンを少し大きくする */
+        }
+    </style>
+
+
+    <script>
+    document.querySelectorAll('.zundaImage').forEach(function(image) {
+    image.addEventListener('click', function() {
+        // 画像を非表示にしてアイコンを表示
+        image.style.display = 'none'; // 画像を消す
+        const iconContainer = document.getElementById('icon-container');
+        iconContainer.style.display = 'block'; // アイコンを表示
+    });
+});
+    </script>
+
+
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const sideNav = document.getElementById('side-nav');
+
+        // ハンバーガーアイコンをクリックしたときにメニューをスライドイン・スライドアウト
+        menuIcon.addEventListener('click', () => {
+            const isOpen = sideNav.style.transform === 'translateX(0%)';
+            sideNav.style.transform = isOpen ? 'translateX(-100%)' : 'translateX(0%)';
+        });
+    </script>
+
+    
+    
+    
+    
+    
+</body>
+</html>
